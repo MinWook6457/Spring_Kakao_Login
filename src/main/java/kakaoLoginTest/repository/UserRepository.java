@@ -1,6 +1,6 @@
-package kakaoLoginTest.kakao.repository;
+package kakaoLoginTest.repository;
 
-import kakaoLoginTest.kakao.entity.User;
+import kakaoLoginTest.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User,Long> {

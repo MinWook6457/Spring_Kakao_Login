@@ -1,4 +1,4 @@
-package kakaoLoginTest.kakao.entity;
+package kakaoLoginTest.entity;
 
 import lombok.Builder;
 import lombok.NoArgsConstructor;

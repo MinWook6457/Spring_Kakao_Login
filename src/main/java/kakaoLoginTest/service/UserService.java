@@ -1,7 +1,7 @@
-package kakaoLoginTest.kakao.service;
+package kakaoLoginTest.service;
 
-import kakaoLoginTest.kakao.entity.User;
-import kakaoLoginTest.kakao.repository.UserRepository;
+import kakaoLoginTest.entity.User;
+import kakaoLoginTest.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

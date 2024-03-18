@@ -1,4 +1,4 @@
-package kakaoLoginTest.kakao;
+package kakaoLoginTest;
 
 import org.springframework.boot.SpringApplication;
 
