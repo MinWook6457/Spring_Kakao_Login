@@ -1,6 +1,6 @@
 package kakaoLoginTest.controller;
 
-import kakaoLoginTest.service.UserService;
+import kakaoLoginTest.service.OAuth2UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Description;
@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequiredArgsConstructor
 @Slf4j
 public class kakaoLoginController {
-    private final UserService userService;
-
     @GetMapping("/index")
     public String index() {
         return "loginForm";
